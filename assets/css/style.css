@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    font-family: 'Lato',sans-serif;
 
 }
 /* navigation bar styling from https://www.w3schools.com/howto/howto_js_topnav.asp */
@@ -22,3 +23,25 @@
     background-color: aqua;
     color: white;
 }
+/* Hero image and content styling */
+body, html {
+    height: 100%;
+}
+.hero-image {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    max-height: 100%;
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 20px;
