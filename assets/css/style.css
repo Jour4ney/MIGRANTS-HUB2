@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
+}
+/* navigation bar styling from https://www.w3schools.com/howto/howto_js_topnav.asp */
+.topnav {
+    background-color: blue;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: chocolate;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: aqua;
+    color: white;
+}
