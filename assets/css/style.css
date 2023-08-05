@@ -18,10 +18,10 @@ body {
 #logo {
     font-weight: 300;
     color:#bbbbbb;
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 2px;
     margin: 10px 0 0 20px;
-    width: 80%;
+    width: 100%;
     font-family: "Oswald", sans-serif;
     line-height: 60px;
 }
@@ -47,10 +47,11 @@ body {
 }
 /* Hero image and content styling */
 body, html {
-    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 .hero-image {
-    height: 500px;
+    height: 1170px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,8 +65,8 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:whitesmoke;
-    font-size: 20px;
+    color: #ffffff;
+    font-size: 25px;
 }
 /* footer styling */
 .container {
