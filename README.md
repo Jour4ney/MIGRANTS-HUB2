@@ -172,4 +172,29 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
 
 [Back to top](#contents)
 
+### Future Features
+
+* A "gallery" page where users can see the events and workshops that we host and give a glimpse of what to expect.
+    * A "volunteer" page where users can sign up to become volunteers at migrants hub.
+    * Upcoming events page to keep user well informed of events,workshops and training that they are interested in being part of.
+ 
+
+[Back to top](#contents)
+
+## Technologies Used
+
+* [HTML5](https://html.spec.whatwg.org/)
+    * Used to create website structure and content.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+    * Used to style the html.
+* [Gitpod](https://www.gitpod.io/#get-started)
+    * Used to create code and repository content.
+* [Github](https://github.com/)
+    * Used to store the repository and deploy the site.
+* [Balsamiq](https://balsamiq.com/wireframes/)
+    * Used to create wireframes.
+
+[Back to top](#contents)
+
+
 
