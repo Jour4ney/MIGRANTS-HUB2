@@ -133,4 +133,32 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
 ![Screenshot of about us section on small screens](assets/readme-images/about-us-mobile.png)
 
 [Back to top](#contents)
- 
+ #### Services Page
+    * This a page dedicated to providing users with information about the services that are offered by migrants hub.
+    * The users can navigate to this page through the navigation bar.
+    * This page is useful to users to gain valuable information about assistance they can get at migrants hub and provides the users with external links with more information.
+
+![Screenshot of help-out page ](assets/readme-images/help-out-screenshot.png)
+
+[Back to top](#contents)
+* #### Contact Us Page
+    * The contact page is accessible through the navigation menu.
+    * It contains a form which the user can fill out to get in touch with migrants hub.
+    * The form includes inputs for the users name, email-address,phone number as well as a textarea which the user may use to send a message or explain why they are contacting migrants hub.
+    * At the bottom of the form is a submit button.
+    * Upon completion the user clicks the submit button which directs them to a page confirming the form has been sent.
+    * This page is useful as it creates a way for users to stay in touch.
+
+![Screenshot of contact page ](assets/readme-images/contact-screenshot.png)
+
+[Back to top](#contents)
+[Back to top](#contents)
+
+* #### Form Sent Page
+    * This is where the user is directed to after submitting the contact form.
+    * It conveys a message to the user thanking them for getting in touch and stating that migrants hub will reply as soon as possible.
+    * It contains a link which users can click on to return to the home page, or they may opt to use the navigation bar as it is also present in this page.
+    * This page is useful to users as it provides confirmation that their form and information has been submitted and provides the user with reassurance.
+
+![Screenshot of form-sent page ](assets/readme-images/form-sent-screenshot.png)
+
