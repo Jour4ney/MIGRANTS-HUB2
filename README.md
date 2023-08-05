@@ -161,4 +161,15 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
     * This page is useful to users as it provides confirmation that their form and information has been submitted and provides the user with reassurance.
 
 ![Screenshot of form-sent page ](assets/readme-images/form-sent-screenshot.png)
+[Back to top](#contents)
+
+* #### Footer
+    * The footer is located at the bottom of each page and is identical througout the site.
+    * It indicates that the end of the page has been reached.
+    * It provides the user with migrants hub address, opening times and social media links that open in a separate tab and helps the user stay in contact through social media.
+
+![Screenshot of footer  ](assets/readme-images/footer.png)
+
+[Back to top](#contents)
+
 
