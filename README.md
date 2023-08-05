@@ -99,7 +99,7 @@ inks Page Wireframes
 
 ### Colour Palette
 
-![Picture of the colour pallete used  ](assets/readme-images/colour-pallete.png)
+![Picture of the colour pallete used  ](assets/readme-images/colour-pallete.webp)
 
 The colour scheme was chosen starting with a shade of brown and then using []() I found colours that compliment it and are suitable for the refugees theme.
 
@@ -109,4 +109,28 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
 
 
 [Back to top](#contents)
+## Features
 
+ Migrants hub is designed to be simple and easy to use, it is made up of various features for both small and large screens that contribute towards this such as a responsive navigation bar and well organised page content.
+
+[Back to top](#contents)
+
+### Existing Features
+* #### Navigation Bar 
+    * Throughout all pages is a fully responsive navigation bar which includes links to each of the pages on the website.
+    * It is contained in the header which is fixed to the top of the viewport which means it is always accessable to users no matter where they are on the page.
+    * This will allow users to navigate between pages on all screen sizes.
+
+![Screenshot of navigation bar ](assets/readme-images/navigation-bar.png)
+
+[Back to top](#contents)
+
+* #### About Us Section
+    * On the landing page is a background hero image with text over it describing what migrants hub is about.
+    * This introduces the user to migrants hub and presents them with information on what to expect on the site.
+    
+![Screenshot of about us section  ](assets/readme-images/about-us.png)
+![Screenshot of about us section on small screens](assets/readme-images/about-us-mobile.png)
+
+[Back to top](#contents)
+ 
