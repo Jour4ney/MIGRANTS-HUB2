@@ -223,30 +223,62 @@ padding: 0;
 .serv-container {
     display:grid;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 0;
     margin: 0;
     
 }
 .card {
     background:white ;
-    width: 1200px;
+    width: 1350px;
     max-height: 800px;
-    margin: 5px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 300;
 }
 .card-image {
     background-color: #16dbd4;
-    height: 400px;
+    height: 500px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 15px 15px 0 0;
 
 }
 .card-1 {
-    background-image: url(../css/images/stack-houses.webp);
+    background-image: url();
 }
 .card-2 {
-    background-image: url(../css/images/education-training.webp);
+    background-image: url(../css/images/inclusion.webp);
  }
+ .card-3 {
+    background-image: url(../css/images/empowerment.webp);
+ }
+ .card-4 {
+    background-image: url(../css/images/hero-image2.webp);
+ }
+ .card h2 {
+    padding: 10px;
+ }
+ .card p {
+    padding: 10px;
+ }
+ .card a {
+    background-color: beige;
+    color: #db5b16;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px  50px;
+    text-decoration: none;
+ }
+ .card:hover {
+    background-color: #bd4607;
+    color: #bbbbbb;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+ }
+
 /* About us styling */
 .about-us {
     display:flex;
