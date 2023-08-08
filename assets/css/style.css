@@ -225,7 +225,7 @@ padding: 0;
     justify-content: center;
     padding: 0;
     margin: 0;
-    bo
+    
 }
 .card {
     background:white ;
@@ -246,6 +246,36 @@ padding: 0;
 }
 .card-2 {
     background-image: url(../css/images/education-training.webp);
+ }
+/* About us styling */
+.about-us {
+    display:flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
 }
+.about-us-card {
+    background:white ;
+    width: 33.3%;
+    height: 800px;
+    margin: 5px;
+}
+.about-us-card-image {
+    background-color: #16dbd4;
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
+}
+.card-1 {
+    background-image: url(../css/images/stack-houses.webp);
+}
+.card-2 {
+    background-image: url(../css/images/education-training.webp);
+}
+
+
 
 /* responsive */
