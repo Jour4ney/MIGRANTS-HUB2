@@ -10,7 +10,7 @@
 body {
     width: 100%;
     height: 100%;
-    display: grid;
+    display:grid;
     align-items: center;
     background: black;
 }
@@ -25,8 +25,6 @@ body {
     font-family: "Oswald", sans-serif;
     line-height: 60px;
 }
-
-
 
 /* navigation bar styling from https://www.w3schools.com/howto/howto_js_topnav.asp */
 .topnav {
@@ -70,7 +68,7 @@ body, html {
 }
 /* footer styling */
 .container {
-    max-width: 1170px;
+    max-width: 100%;
     background-color: #16dbd4;
     margin: auto;
 }
@@ -143,6 +141,22 @@ padding: 0;
     color:#bbbbbb;
     background-color: #db5b16;
 }
+/* about us styling source code(https://youtu.be/qXRYMdvq_Dc */
+
+.about-us {
+    display: flex;
+}
+.card-1 {
+    background:white ;
+    width: 100;
+    height: 100%;
+    margin: 10px;
+}
+.card-image {
+    background-color: #16dbd4;
+    height: 150px;
+    margin-bottom: 15px;
+}
 /* contact form page  source code (https://youtu.be/p9Ubg6Mqq6w)*/
 .contact-in {
     width: 80%;
@@ -207,21 +221,31 @@ padding: 0;
 }
 /* service styling */
 .serv-container {
-    height: auto;
-    position: relative;
-    width: 800px;
-    background-color: #058f8a;
+    display:grid;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    bo
 }
-.serv-container img {
-    width: 100%;
-    display: block;
-    object-position: cover;
+.card {
+    background:white ;
+    width: 1200px;
+    max-height: 800px;
+    margin: 5px;
 }
-.one {
-    position: absolute;
-    bottom:5px ;
-    right: 5px;
-    font-size: 20px;
+.card-image {
     background-color: #16dbd4;
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+
 }
+.card-1 {
+    background-image: url(../css/images/stack-houses.webp);
+}
+.card-2 {
+    background-image: url(../css/images/education-training.webp);
+}
+
 /* responsive */
