@@ -255,11 +255,27 @@ The repository link is [here]()
 * Fonts were taken from [Google Fonts](https://fonts.google.com/)
 * The icons used throughout the site were from [font awesome](https://fontawesome.com/)
 * The colour palette was generated using [coolers]()
-* I linked to a [Poaching Facts](https://www.poachingfacts.com/poaching-statistics/rhino-poaching-statistics/) external website in the home page where users can find more information about rhino poaching and statistics.
 * A guidline and ideas of content to be included in the readme.md came from [this readme](https://github.com/EwanColquhoun/wawaswoods#readme) example and [The code institute template](https://github.com/Code-Institute-Solutions/readme-template) 
 * Information on how to fork and clone repositories was researched at [Github Docs](https://docs.github.com/en)
 
 [Back to top](#contents)
 
+### Code
+* Instructions and ideas on most of my code came from various sources like you tube videos, W3School as well as code institute class notes.
+* Html code for the social links in the footer was taken from the [love running project](code institute class notes)
 
+### Media
+* Images used throughout the site were taken from [pexels](https://www.unsplash.com/)
+* I used [TinyPNG](https://tinypng.com/) to compress images.
 
+## Acknowledgements
+
+The Migrants Hub site was developed for the purpose of being a portfolio project for the [Code Institute](https://codeinstitute.net/global/) course in Full Stack Software Development. I would like to thank the following for support throughout the development process:
+
+* The Code Institute community as a whole, including staff and students.
+* My peers and friends who supported me and gave feedback.
+* My mentor []() for support and advice during development phases.
+
+Sebenzile Mbambo 2023
+
+[Back to top](#contents)
