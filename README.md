@@ -60,13 +60,13 @@ As a user I want to:
 
 ## Site Structure 
 
-Migrants Hub is a site that consists of 4 main pages which are presented in the navigation menu. The main landing page is the [about us]() page with primary information. The user may then opt to navigate to any of the other pages ([services](), [useful links]() and [contact]()). The navigation menu sticks to the top of each page to allow easy access for users to navigate. 
+Migrants Hub is a site that consists of 4 main pages which are presented in the navigation menu. The main landing page is the [homepage]() page with primary information. The user may then opt to navigate to any of the other pages ([about us](), [services]() and [contact]()). The navigation menu sticks to the top of each page to allow easy access for users to navigate. 
 
 ### Wireframes
 
 I created basic wireframes of how I wanted the layout of the site to look on different devices. This was done using [Balsamiq](https://balsamiq.com/).
 
-* Wireframes were created for the about us, services, useful links and contact page. The layouts for the other pages were adopted from these so I did not find it neccessary to create separate wireframes that were nearly identical.
+* Wireframes were created for the homepage, about us, services and contact page. The layouts for the other pages were adopted from these so I did not find it neccessary to create separate wireframes that were nearly identical.
 * The final version of the site differs in some ways due to changes that were made during the development.
     * The biggest difference 
     * This change was made to 
@@ -75,7 +75,7 @@ I created basic wireframes of how I wanted the layout of the site to look on dif
 
 ![wireframes for the home page  ]()
 
-#### Useful L
+#### Services Page Wireframes
 inks Page Wireframes
 
 ![wireframes for the useful links page  ]()
@@ -99,7 +99,7 @@ inks Page Wireframes
 
 ### Colour Palette
 
-![Picture of the colour pallete used  ](assets/readme-images/colour-pallete.webp)
+![Picture of the colour pallete used  ]()
 
 The colour scheme was chosen starting with a shade of brown and then using []() I found colours that compliment it and are suitable for the refugees theme.
 
@@ -121,24 +121,28 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
     * It is contained in the header which is fixed to the top of the viewport which means it is always accessable to users no matter where they are on the page.
     * This will allow users to navigate between pages on all screen sizes.
 
-![Screenshot of navigation bar ](assets/readme-images/navigation-bar.png)
+![Screenshot of navigation bar ]()
 
 [Back to top](#contents)
-
-* #### About Us Section
+* #### Homepage
     * On the landing page is a background hero image with text over it describing what migrants hub is about.
     * This introduces the user to migrants hub and presents them with information on what to expect on the site.
+
+* #### About Us Section
+    * This section consists of three columns with the mission, values and success stories of Migrants Hub.
+    * This section gives the user an overall insight of our mission and values, which reassures the user of what to expect and whether their needs will be met at Migrants hub.
+    * It further seeks to highlight things we value and how our values have a positive impact on the users.
     
-![Screenshot of about us section  ](assets/readme-images/about-us.png)
-![Screenshot of about us section on small screens](assets/readme-images/about-us-mobile.png)
+![Screenshot of about us section  ]()
+
 
 [Back to top](#contents)
  #### Services Page
     * This a page dedicated to providing users with information about the services that are offered by migrants hub.
     * The users can navigate to this page through the navigation bar.
-    * This page is useful to users to gain valuable information about assistance they can get at migrants hub and provides the users with external links with more information.
+    * This page is useful to users to gain valuable information about assistance they can get at migrants hub.
 
-![Screenshot of help-out page ](assets/readme-images/help-out-screenshot.png)
+![Screenshot of help-out page ]()
 
 [Back to top](#contents)
 * #### Contact Us Page
@@ -149,7 +153,7 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
     * Upon completion the user clicks the submit button which directs them to a page confirming the form has been sent.
     * This page is useful as it creates a way for users to stay in touch.
 
-![Screenshot of contact page ](assets/readme-images/contact-screenshot.png)
+![Screenshot of contact page ]()
 
 [Back to top](#contents)
 [Back to top](#contents)
@@ -160,7 +164,7 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
     * It contains a link which users can click on to return to the home page, or they may opt to use the navigation bar as it is also present in this page.
     * This page is useful to users as it provides confirmation that their form and information has been submitted and provides the user with reassurance.
 
-![Screenshot of form-sent page ](assets/readme-images/form-sent-screenshot.png)
+![Screenshot of form-sent page ]()
 [Back to top](#contents)
 
 * #### Footer
@@ -193,6 +197,67 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
     * Used to store the repository and deploy the site.
 * [Balsamiq](https://balsamiq.com/wireframes/)
     * Used to create wireframes.
+
+[Back to top](#contents)
+## Testing
+
+Please click [here]() for more information on testing Migrants Hub.
+
+## Deployment and Development
+
+### Deploying the Site
+
+*  The deployment of the site was done through github pages through the following steps:
+    1. In the rhino-aid github repository, click on settings.
+    2. Scroll down and select the pages tab.
+    3. In the branch dropdown menu, select "main".
+    4. Click save.
+    5. Refresh the page to view deployed website link.
+
+The repository link is [here]()
+
+![Screenshot of github pages (deployment) ]()
+
+[Back to top](#contents)
+
+### Forking the repository
+* Forking the repository can also be done on github.
+    * Forking may be done in order to create a copy of the repository if one wishes to edit it without making changes to the original repository.
+    * This can be done through the following steps:
+    1. In the rhino-aid repository, find the "fork" tab in the top right corner.
+    2. Click on the "fork" tab.
+    3. Click on "create fork".
+
+![Screenshot of github pages (forking) ](assets/readme-images/forking-screenshot.png)
+
+[Back to top](#contents)
+
+### Cloning the repository
+* Cloning the repository can also be done on github.
+    * Cloning a repository may be done in order to create a local copy on a computer.
+    * This can be done through the following steps:
+    1. In the rhino-aid repository, click on the "code" tab located just above the list of files and next to the gitpod button.
+    2. Ensure https is selected in the dropdown.
+    3. Click on the clipboard icon under https to copy the url.
+    4. Open Git Bash.
+    5. Change the current working directory to the location where you want the cloned directory to be created.
+    6. Type in "git clone" followed by pasting the url that was copied from the repository.
+    E.g.  "git clone https://....."
+    7. Press enter to create the clone.
+
+![Screenshot of github pages (cloning) ]()
+
+[Back to top](#contents)
+
+## Credits
+
+### Content
+* Fonts were taken from [Google Fonts](https://fonts.google.com/)
+* The icons used throughout the site were from [font awesome](https://fontawesome.com/)
+* The colour palette was generated using [coolers]()
+* I linked to a [Poaching Facts](https://www.poachingfacts.com/poaching-statistics/rhino-poaching-statistics/) external website in the home page where users can find more information about rhino poaching and statistics.
+* A guidline and ideas of content to be included in the readme.md came from [this readme](https://github.com/EwanColquhoun/wawaswoods#readme) example and [The code institute template](https://github.com/Code-Institute-Solutions/readme-template) 
+* Information on how to fork and clone repositories was researched at [Github Docs](https://docs.github.com/en)
 
 [Back to top](#contents)
 

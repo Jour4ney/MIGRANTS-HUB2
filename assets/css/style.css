@@ -55,7 +55,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background: url('../css/images/children-art.webp') no-repeat center center;
+    background: url('../css/images/hero-image.webp') no-repeat center center;
 }
 .hero-text {
     text-align: center;
@@ -150,7 +150,7 @@ padding: 0;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 20px;
-    background-image: url(../css/images/hero-image2.webp.) ;
+    background-image: url("../css/images/shoulder-touch.webp") ;
     position: relative;
     box-shadow: 0px 0px 0px 0px;
 }
@@ -361,10 +361,10 @@ padding: 0;
 
 /* styles for screens of 375px and below */
 @media  and(max-width:375px) {
-    #about us p {
+    .about us p {
         font-size: 1rem;
     }
-    #logo {
+    .logo {
         font-size: 30px;
     }
     #form-sent-message h2 {
@@ -374,7 +374,7 @@ padding: 0;
  /* styles for 720px and up (medium to large) */
  @media  and (min-width:720px) {
 
-    #logo {
+    .logo {
         margin-top: 20px;
     }
     .topnav {
@@ -382,11 +382,11 @@ padding: 0;
         height: 40px;
         margin-top: 15px;
     }
-    #navbar li {
+    .navbar li {
         float: left;
         margin-left: 30px;
     }
-    #navbar a {
+    .navbar a {
         color: #16dbd4;
     }
 }
@@ -394,19 +394,19 @@ padding: 0;
   .about-us .about-us-container {
     margin-top: 150px;
   }
-  #hero-image {
+  .hero-image {
     height: 550px;
     background: url("../css/images/inclusion.webp") no-repeat center center;
     background-size: cover;
   }
-  #about-us {
+  .about-us {
     width: 40%;
     margin-top: 80px;
   }
-  #about-us p {
+  .about-us p {
     font-size: 1.2rem;
   }
-  #contact, #form-sent-message {
+  .contact, #form-sent-message {
     margin: 150px 0 -30px 0;
     height: calc(100vh-240px);
     overflow: auto;
@@ -430,13 +430,13 @@ padding: 0;
     #hero-image {
         height: 600px
     }
-#about-us {
+.about-us {
     margin-top: 100px;
 }
-#about-us p {
+.about-us p {
     font-size: 1.3rem;
 }
-#contact, #form-sent-message {
+.contact, #form-sent-message {
     margin: 100px 0 -30px 0;
     height: calc(100vh-190px);
 }
