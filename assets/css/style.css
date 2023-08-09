@@ -55,7 +55,7 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background: url('../css/images/hero-image.webp') no-repeat center center;
+    background: url(../css/images/hero-image.webp) no-repeat center center;
 }
 .hero-text {
     text-align: center;
@@ -63,7 +63,7 @@ body, html {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
+    color:black;
     font-size: 25px;
 }
 /* footer styling */
@@ -150,7 +150,7 @@ padding: 0;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 20px;
-    background-image: url("../css/images/shoulder-touch.webp") ;
+    background-image: url("../css/images/children-art.webp);
     position: relative;
     box-shadow: 0px 0px 0px 0px;
 }
@@ -199,12 +199,12 @@ padding: 0;
     text-transform: uppercase;
     padding: 10px 0;
     cursor: pointer;
-    font-size: 20px;}
+    font-size: 20px;
 }
 /* form-sent page styling */
      
 #form-sent-message {
-    background: url("../css/images/hero-image.webp") no-repeat center center;
+    background: url("../css/images/our-mission.webp") no-repeat center center;
     background-size: cover;
     height: calc(100vh - 160px);
     margin: 70px 0 -30px 0;
@@ -269,7 +269,7 @@ padding: 0;
     border-radius: 15px 15px 0 0;
 }
 .card-1 {
-    background-image: url(../css/images/inclusion.webp);
+    background-image: url(../css/images/children-art.webp);
  }
 
 .card-2 {
@@ -364,7 +364,7 @@ padding: 0;
     .about us p {
         font-size: 1rem;
     }
-    .logo {
+    #logo {
         font-size: 30px;
     }
     #form-sent-message h2 {
@@ -374,7 +374,7 @@ padding: 0;
  /* styles for 720px and up (medium to large) */
  @media  and (min-width:720px) {
 
-    .logo {
+    #logo {
         margin-top: 20px;
     }
     .topnav {
@@ -427,7 +427,7 @@ padding: 0;
     .about-us-container {
         margin-top: 100px;
     }
-    #hero-image {
+    .hero-image {
         height: 600px
     }
 .about-us {
