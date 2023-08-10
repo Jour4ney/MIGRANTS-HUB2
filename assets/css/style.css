@@ -12,7 +12,7 @@ body {
     height: 100%;
     display:grid;
     align-items: center;
-    background: black;
+    background:bisque;
 }
 /* logo and header styling */
 #logo {
@@ -89,7 +89,7 @@ padding: 0;
 }
 .footer-col h4 {
     font-size: 14px;
-    color: #16dbd4;;
+    color: black;
     text-transform: capitalize;
     margin-bottom: 35px;
     font-weight: 400;
@@ -150,7 +150,7 @@ padding: 0;
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 20px;
-    background-image: url("../css/images/children-art.webp);
+    background-image: url("../css/images/children-art.webp2");
     position: relative;
     box-shadow: 0px 0px 0px 0px;
 }
@@ -262,11 +262,11 @@ form-backing {
  
 /* service styling */
 .serv-container {
-    display:grid;
+    display:block;
     justify-content: center;
     flex-wrap: wrap;
     padding: 0;
-    margin: 0;
+    margin: 5px;
     
 }
 .card {
@@ -285,7 +285,7 @@ form-backing {
     border-radius: 15px 15px 0 0;
 }
 .card-1 {
-    background-image: url(../css/images/children-art.webp);
+    background-image: url('../css/images/inclusion.webp');
  }
 
 .card-2 {
@@ -375,86 +375,3 @@ form-backing {
 
 /* media queries */
 
-/* styles for screens of 375px and below */
-@media  and(max-width:375px) {
-    .about us p {
-        font-size: 1rem;
-    }
-    #logo {
-        font-size: 30px;
-    }
-    #form-sent-message h2 {
-        font-size: 12px;
-    }
-}
- /* styles for 720px and up (medium to large) */
- @media  and (min-width:720px) {
-
-    #logo {
-        margin-top: 20px;
-    }
-    .topnav {
-        font-size: 20px;
-        height: 40px;
-        margin-top: 15px;
-    }
-    .navbar li {
-        float: left;
-        margin-left: 30px;
-    }
-    .navbar a {
-        color: #16dbd4;
-    }
-}
-  /* about us section for medium screens */
-  .about-us .about-us-container {
-    margin-top: 150px;
-  }
-  .hero-image {
-    height: 550px;
-    background: url("") no-repeat center center;
-    background-size: cover;
-  }
-  .about-us {
-    width: 40%;
-    margin-top: 80px;
-  }
-  .about-us p {
-    font-size: 1.2rem;
-  }
-  .contact, #form-sent-message {
-    margin: 150px 0 -30px 0;
-    height: calc(100vh-240px);
-    overflow: auto;
-  }
-
-  /* styles for larger screens 1020px and above */
-
-  @media  and (min-width: 1020px) {
-    .topnav {
-        position: absolute;
-        bottom: 12px;
-        right: 0;
-        margin-right: 40px;
-    }
-    .topnav li {
-        margin-left: 40px;
-    }
-    .about-us-container {
-        margin-top: 100px;
-    }
-    .hero-image {
-        height: 600px
-    }
-.about-us {
-    margin-top: 100px;
-}
-.about-us p {
-    font-size: 1.3rem;
-}
-.contact, #form-sent-message {
-    margin: 100px 0 -30px 0;
-    height: calc(100vh-190px);
-}
-    
-  }
