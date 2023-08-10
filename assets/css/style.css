@@ -233,7 +233,7 @@ form-backing {
     color: aqua;
 }
 
-#message-box {
+.message-box {
     width: 80%;
     margin: 0 auto;
     display: block;
@@ -253,7 +253,7 @@ form-backing {
 
 /* form-sent page styling */
 
-#form-sent-message {
+.form-sent-message {
     background: url("../images/our-mission.webp") no-repeat center center;
     background-size: cover;
     height: calc(100vh - 160px);
@@ -261,7 +261,7 @@ form-backing {
     position: relative;
 }
 
-#message-container {
+.message-container {
     text-align: center;
     position: absolute;
     top: 20%;
@@ -272,24 +272,24 @@ form-backing {
     border: 2px solid #101010;
 }
 
-#form-sent-message h2 {
+.form-sent-message h2 {
     margin: 20px 0 20px 0;
     font-size: 40px;
     color: #058f8a;
 }
 
-#form-sent-message p {
+.form-sent-message p {
     color: #058f8a;
     font-size: 20px;
 }
 
-#message-container a {
+.message-container a {
     color: #058f8a;
     border-radius: 100px;
     text-decoration: underline;
 }
 
-#message-container a:hover {
+.message-container a:hover {
     background-color: #5c6956;
     color: #db5b16;
     padding: 5px;
@@ -319,7 +319,7 @@ form-backing {
     height: 500px;
     margin-bottom: 15px;
     background-size: cover;
-    border-radius: 15px 15px 0 0;
+    
 }
 
 .card-1 {
@@ -372,14 +372,14 @@ form-backing {
     margin: 0;
 }
 
-#about-us-card {
+.about-us-card {
     background-color: white;
     width: 33.3%;
     height: 700px;
     margin: 5px;
 }
 
-#abt-card-image {
+.abt-card-image {
     background-color: #16dbd4;
     height: 400px;
     margin-bottom: 15px;
@@ -388,7 +388,7 @@ form-backing {
     overflow: hidden;
 }
 
-#about-us-card h2 {
+.about-us-card h2 {
     padding: 10px;
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
@@ -398,13 +398,13 @@ form-backing {
 
 }
 
-#about-us-card p {
+.about-us-card p {
     padding: 10px;
     font-size: 20px;
     font-weight: 300;
 }
 
-#about-us-card a {
+.about-us-card a {
     background-color: beige;
     color: #db5b16;
     padding: 15px 20px;
@@ -414,7 +414,7 @@ form-backing {
     text-decoration: none;
 }
 
-#about-us-card:hover {
+.about-us-card:hover {
     background-color: #bd4607;
     color: #bbbbbb;
     cursor: pointer;
