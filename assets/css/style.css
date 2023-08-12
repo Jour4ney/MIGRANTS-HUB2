@@ -322,7 +322,7 @@ form-backing {
 }
 
 .card-1 {
-    background-image: url('../images/inclusion.webp');
+    background-image: url('../images/');
 }
 
 .card-2 {
@@ -412,7 +412,7 @@ form-backing {
 }
 
 .about-us-card:hover {
-    background-color: #bd4607;
+    background-color: #136f63;
     color: #92374d;
     cursor: pointer;
     transform: scale(1.03);
