@@ -254,7 +254,7 @@ form-backing {
 /* form-sent page styling */
 
 .form-sent-message {
-    background: url("../images/handcuffs.webp") no-repeat center center;
+    background: url("../images/handcuffs2.webp") no-repeat center center;
     background-size: cover;
     height: calc(100vh - 160px);
     margin: 70px 0 -30px 0;
