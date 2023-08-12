@@ -2,7 +2,7 @@
 
 Donegal migrants hub is a site that seeks to ensure newly arrived migrants in the Donegal area have access to the necessary services that will help them easily integrate to the community.
 
-Visit the live site at [DNG MIGRANTS HUB](HTTPS://)
+Visit the live site at [DNG MIGRANTS HUB]()
 
 ![Am I responsive screenshots of DNG Migrants Hub](.../)
 
