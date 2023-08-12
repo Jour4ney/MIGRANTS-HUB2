@@ -173,7 +173,7 @@ ul {
     flex-wrap: wrap;
     padding: 10px;
     border-radius: 20px;
-    background-image: url("../images/contact-form.webp");
+    background-image: url("../images/handcuffs.webp");
     position: relative;
     box-shadow: 0px 0px 0px 0px;
 }
@@ -254,7 +254,7 @@ form-backing {
 /* form-sent page styling */
 
 .form-sent-message {
-    background: url("../images/contact-form.jpg") no-repeat center center;
+    background: url("../images/handcuffs.webp") no-repeat center center;
     background-size: cover;
     height: calc(100vh - 160px);
     margin: 70px 0 -30px 0;
@@ -322,7 +322,7 @@ form-backing {
 }
 
 .card-1 {
-    background-image: url('../images/');
+    background-image: url('../images/inclusion.webp');
 }
 
 .card-2 {
