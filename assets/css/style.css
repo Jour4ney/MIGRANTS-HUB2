@@ -254,7 +254,7 @@ form-backing {
 /* form-sent page styling */
 
 .form-sent-message {
-    background: url("../images/contact-form.webp") no-repeat center center;
+    background: url("../images/contact-form.jpg") no-repeat center center;
     background-size: cover;
     height: calc(100vh - 160px);
     margin: 70px 0 -30px 0;
@@ -315,7 +315,6 @@ form-backing {
 }
 
 .card-image {
-    background-color: #136f63;
     height: 500px;
     margin-bottom: 5px;
     background-size: cover;
@@ -347,12 +346,11 @@ form-backing {
 }
 
 .card a {
-    background-color:  #dde392;
     color: #db5b16;
-    padding: 15px 20px;
+    padding: 5px 5px;
     display: block;
     text-align: center;
-    margin: 15px 20px;
+    margin: 5px 10px;
     text-decoration: none;
 }
 
@@ -380,7 +378,7 @@ form-backing {
 }
 
 .abt-card-image {
-    background-color: #dde392;
+    
     height: 400px;
     margin-bottom: 15px;
     background-size: cover;
@@ -405,7 +403,6 @@ form-backing {
 }
 
 .about-us-card a {
-    background-color: #dde392;
     color: #db5b16;
     padding: 15px 20px;
     display: block;
@@ -427,12 +424,21 @@ form-backing {
 /* styles for small screens up to 320px */
 @media  and (max-width:375px) {
     .about-us-container {
-    display: block;
-    }
-    .serv-container{
+    flex-direction: column;
 
+    }
+    .about-us-card p {
+        font-size: 1rem;
+    }
+    .form-sent h2 {
+    font-size: 25px;
     }
     #logo {
 
     }
+}
+/* styles for 720px and up */
+@media  and (min-width:720px) {
+     
+    
 }
