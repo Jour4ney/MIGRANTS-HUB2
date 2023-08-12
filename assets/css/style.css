@@ -424,21 +424,40 @@ form-backing {
 /* styles for small screens up to 320px */
 @media  and (max-width:375px) {
     .about-us-container {
-    flex-direction: column;
+    flex-direction: row;
+    max-height: 100%;
+    flex-wrap: wrap;
+    font-size: 2rem;
+    margin: 1rem;
+    padding: 0,5rem;
 
     }
-    .about-us-card p {
-        font-size: 1rem;
-    }
+    
     .form-sent h2 {
     font-size: 25px;
     }
-    #logo {
-
+    
+    .card {
+        max-height: 100%;
+        max-width: 100%;
+        margin: 5px;
+        font-size: 1rem;
     }
 }
 /* styles for 720px and up */
 @media  and (min-width:720px) {
+    .about-us-container {
+        flex-direction: row;
+        max-height: 100%;
+        flex-wrap: wrap;
+        font-size: 3rem;
+        margin: 1rem;
+        padding: 0,5rem;
      
+    }
+    .serv-container .footer {
+        max-width: 80%;
+    }
     
-}
+}    
+    
