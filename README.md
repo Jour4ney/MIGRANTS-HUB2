@@ -4,7 +4,7 @@ Donegal migrants hub is a site that seeks to ensure newly arrived migrants in th
 
 Visit the live site at [DNG MIGRANTS HUB](https://jour4ney.github.io/MIGRANTS-HUB2/)
 
-![Am I responsive screenshots of DNG Migrants Hub](.../)
+![Am I responsive screenshots of DNG Migrants Hub](assets/readme-images/am-i-responsive.png)
 
 ## Contents
 
@@ -60,7 +60,7 @@ As a user I want to:
 
 ## Site Structure 
 
-Migrants Hub is a site that consists of 4 main pages which are presented in the navigation menu. The main landing page is the [homepage]() page with primary information. The user may then opt to navigate to any of the other pages ([about us](), [services]() and [contact]()). The navigation menu sticks to the top of each page to allow easy access for users to navigate. 
+Migrants Hub is a site that consists of 4 main pages which are presented in the navigation menu. The main landing page is the [homepage](https://jour4ney.github.io/MIGRANTS-HUB2/) page with primary information. The user may then opt to navigate to any of the other pages. The navigation menu sticks to the top of each page to allow easy access for users to navigate. 
 
 ### Wireframes
 
@@ -99,13 +99,13 @@ inks Page Wireframes
 
 ### Colour Palette
 
-![Picture of the colour pallete used  ]()
+![Picture of the colour pallete used ](assets/readme-images/color-pallette.png)
 
-The colour scheme was chosen starting with a shade of brown and then using []() I found colours that compliment it and are suitable for the refugees theme.
+The colour scheme was chosen starting with a shade of brown and then using [coolors](https://coolors.co/) I found colours that compliment it and are suitable for the refugees theme.
 
-* The  is used in the header and footer as well as a few borders and backgrounds on links and buttons.
-* The  works well throughout as a background colour and font colour. 
-* The  is used for font colour throughout creating good contrast. 
+* The dark green is used in the header and footer.
+* The light green  works well throughout as a background colour and brown was used mostly as background on hover items. 
+* The black is used for font colour throughout creating good contrast. 
 
 
 [Back to top](#contents)
@@ -121,7 +121,7 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
     * It is contained in the header which is fixed to the top of the viewport which means it is always accessable to users no matter where they are on the page.
     * This will allow users to navigate between pages on all screen sizes.
 
-![Screenshot of navigation bar ]()
+![Screenshot of navigation bar ](assets/readme-images/logo-navbar.png)
 
 [Back to top](#contents)
 * #### Homepage
@@ -133,16 +133,16 @@ The colour scheme was chosen starting with a shade of brown and then using []() 
     * This section gives the user an overall insight of our mission and values, which reassures the user of what to expect and whether their needs will be met at Migrants hub.
     * It further seeks to highlight things we value and how our values have a positive impact on the users.
     
-![Screenshot of about us section  ]()
+![Screenshot of about us section  ](assets/readme-images/about-us-screenshot.png)
 
 
 [Back to top](#contents)
  #### Services Page
     * This a page dedicated to providing users with information about the services that are offered by migrants hub.
     * The users can navigate to this page through the navigation bar.
-    * This page is useful to users to gain valuable information about assistance they can get at migrants hub.
+    * This page is useful to users to gain valuable information about assistance they can get at migrants hubas well as our success stories.
 
-![Screenshot of help-out page ]()
+![Screenshot of services ](assets/readme-images/services-screenshot.png)
 
 [Back to top](#contents)
 * #### Contact Us Page
@@ -214,9 +214,8 @@ Please click [here]() for more information on testing Migrants Hub.
     4. Click save.
     5. Refresh the page to view deployed website link.
 
-The repository link is [here]()
+The repository link is [here](https://jour4ney.github.io/MIGRANTS-HUB2/)
 
-![Screenshot of github pages (deployment) ]()
 
 [Back to top](#contents)
 
@@ -228,7 +227,6 @@ The repository link is [here]()
     2. Click on the "fork" tab.
     3. Click on "create fork".
 
-![Screenshot of github pages (forking) ](assets/readme-images/forking-screenshot.png)
 
 [Back to top](#contents)
 
@@ -245,7 +243,7 @@ The repository link is [here]()
     E.g.  "git clone https://....."
     7. Press enter to create the clone.
 
-![Screenshot of github pages (cloning) ]()
+
 
 [Back to top](#contents)
 
@@ -254,18 +252,22 @@ The repository link is [here]()
 ### Content
 * Fonts were taken from [Google Fonts](https://fonts.google.com/)
 * The icons used throughout the site were from [font awesome](https://fontawesome.com/)
-* The colour palette was generated using [coolers]()
 * A guidline and ideas of content to be included in the readme.md came from [this readme](https://github.com/EwanColquhoun/wawaswoods#readme) example and [The code institute template](https://github.com/Code-Institute-Solutions/readme-template) 
 * Information on how to fork and clone repositories was researched at [Github Docs](https://docs.github.com/en)
-
+* The colour palette was generated using [coolers](https://coolors.co/)
+* The images used were mostly from  [pexels](https://pexels.com/) and [unsplash](https://unsplash.com/)
 [Back to top](#contents)
 
 ### Code
-* Instructions and ideas on most of my code came from various sources like you tube videos, W3School as well as code institute class notes.
-* Html code for the social links in the footer was taken from the [love running project](code institute class notes)
+* Instructions and ideas on most of my code came from various sources like [you tube videos](https://youtu.be/p9Ubg6Mqq6w), [W3Schools](https://www.w3schools.com/) as well as code institute class notes.
+* Html code for the social links in the footer was taken from the [love running project](https://codeinstitute.net/ie/)
 
 ### Media
-* Images used throughout the site were taken from [pexels](https://www.unsplash.com/)
+[Back to top](#contents)
+[Back to top](#contents)
+[Back to top](#contents)
+[Back to top](#contents)
+* Images used throughout the site were taken from [pexels](https://www.unsplash.com/) and [pexels](https://pexels.com/)
 * I used [TinyPNG](https://tinypng.com/) to compress images.
 
 ## Acknowledgements
@@ -273,8 +275,8 @@ The repository link is [here]()
 The Migrants Hub site was developed for the purpose of being a portfolio project for the [Code Institute](https://codeinstitute.net/global/) course in Full Stack Software Development. I would like to thank the following for support throughout the development process:
 
 * The Code Institute community as a whole, including staff and students.
-* My peers and friends who supported me and gave feedback.
-* My mentor []() for support and advice during development phases.
+* My daughter who gave me moral support and feedback on days when I wanted to give up.
+* My mentor [Lauren-Nicole](https://linkedin.com/in/lauren-nicole-popich) for support and advice during development phases.
 
 Sebenzile Mbambo 2023
 
