@@ -192,6 +192,7 @@ form-backing {
     width: 100%;
     height: 50px;
     flex: 50%;
+    
 }
 
 .contact-form {
@@ -200,10 +201,11 @@ form-backing {
     flex: 60%;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 .contact-form>h2 {
-    margin-bottom: 20px 0 20px 0;
+    margin-bottom: 20px;
     font-size: 40px;
 }
 
@@ -255,11 +257,12 @@ form-backing {
 /* form-sent page styling */
 
 .form-sent-message {
-    background: url("../images/dad-daughter.webp") no-repeat center center;
+    background: url("../images/hero-image.webp") no-repeat center center;
     background-size: cover;
     height: calc(100vh - 160px);
     margin: 70px 0 -30px 0;
     position: relative;
+    justify-content: center;
 }
 
 .message-container {
@@ -393,7 +396,7 @@ form-backing {
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     text-align: center;
-    color: #058f8a;
+    color: #101010;
 
 }
 
@@ -423,15 +426,16 @@ form-backing {
 
 /* media queries */
 /* styles for small screens up to 320px */
+
 @media and(max-width:375px) {
 
     .about-us-container {
     flex-direction: row;
-    max-height: 100%;
-    flex-wrap: wrap;
-    font-size: 2rem;
-    margin: 1rem;
-    padding: 0,5rem;
+    max-height:100%;
+    flex-wrap:wrap;
+    font-size:2rem;
+    margin:1rem;
+    padding:0,5rem;
 
     }
     
@@ -447,14 +451,16 @@ form-backing {
     }
 }
 /* styles for 720px and up */
+
 @media  and (min-width:720px) {
+
     .about-us-container {
-        flex-direction: row;
-        max-height: 100%;
-        flex-wrap: wrap;
-        font-size: 3rem;
-        margin: 1rem;
-        padding: 0,5rem;
+        flex-direction:row;
+        max-height:100%;
+        flex-wrap:wrap;
+        font-size:3rem;
+        margin:1rem;
+        padding:0.5rem;
      
     }
     .serv-container .footer {
