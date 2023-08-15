@@ -12,7 +12,7 @@
 body {
     width: 100%;
     height: 100%;
-    display:flex;
+    display:grid;
     align-items: center;
     background: #dde392;
     min-height: 100vh;
@@ -406,7 +406,7 @@ form-backing {
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     text-align: center;
-    color: #101010;
+    color: white;
 
 }
 
