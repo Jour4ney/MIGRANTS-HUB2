@@ -106,11 +106,12 @@ ul {
 }
 
 .footer-col {
-    width: 33.3%;
+    width: 23%;
     padding: 0 15px;
     font-size: 20px;
     color: white;
     text-shadow: 2px 2px 1px black;
+    margin: 10px;
 }
 
 .footer-col h4 {
@@ -322,7 +323,7 @@ form-backing {
     justify-content: center;
     flex-wrap: wrap;
     padding: 0;
-    margin: 5px;
+    margin: 5opx;
 
 }
 
