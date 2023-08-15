@@ -208,7 +208,7 @@ Please click [here]() for more information on testing Migrants Hub.
 ### Deploying the Site
 
 *  The deployment of the site was done through github pages through the following steps:
-    1. In the rhino-aid github repository, click on settings.
+    1. In the migrants-hub github repository, click on settings.
     2. Scroll down and select the pages tab.
     3. In the branch dropdown menu, select "main".
     4. Click save.
@@ -223,7 +223,7 @@ The repository link is [here](https://jour4ney.github.io/MIGRANTS-HUB2/)
 * Forking the repository can also be done on github.
     * Forking may be done in order to create a copy of the repository if one wishes to edit it without making changes to the original repository.
     * This can be done through the following steps:
-    1. In the rhino-aid repository, find the "fork" tab in the top right corner.
+    1. In the migrants-hub repository, find the "fork" tab in the top right corner.
     2. Click on the "fork" tab.
     3. Click on "create fork".
 
@@ -234,7 +234,7 @@ The repository link is [here](https://jour4ney.github.io/MIGRANTS-HUB2/)
 * Cloning the repository can also be done on github.
     * Cloning a repository may be done in order to create a local copy on a computer.
     * This can be done through the following steps:
-    1. In the rhino-aid repository, click on the "code" tab located just above the list of files and next to the gitpod button.
+    1. In the migrants-hub repository, click on the "code" tab located just above the list of files and next to the gitpod button.
     2. Ensure https is selected in the dropdown.
     3. Click on the clipboard icon under https to copy the url.
     4. Open Git Bash.
