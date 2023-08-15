@@ -34,6 +34,9 @@ body {
 .topnav {
     background-color: #136f63;
     overflow: hidden;
+    font-size: 60px;
+    font-weight: 600;
+    color: white;
 }
 
 .topnav a {
@@ -205,11 +208,14 @@ form-backing {
 
 .contact-form {
     width: 60%;
-    height: auto;
-    flex: 60%;
+    min-height: 100vh;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 1px 1px 1px black;
+
+
 }
 
 .contact-form>h2 {
@@ -218,26 +224,30 @@ form-backing {
 }
 
 .contact-form>label {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    color: white;
 }
 
 .contact-form-txt {
-    display: block;
+    display: flex;
     width: 80%;
     height: 25px;
-    border: 1px solid #bcbcbc;
-    margin-bottom: 10px;
+    border: 1px solid #db5b16;
     margin-top: 10px;
+    font-size: 1.5rem;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    margin-left: 100px;
 }
 
 .submit {
-    width: 100px;
-    height: 30px;
-    margin: 20px;
-    background-color: #32213a;
+    width: 35%;
+    height: 50px;
+    margin: 10px;
+    background-color:#bd4607;
     border: 2px solid #136f63;
     border-radius: 10px;
-    color: #db5b16;
+    color: white;
+    font-size: 1.5rem;
 }
 
 #message-box::placeholder {
@@ -245,8 +255,7 @@ form-backing {
 }
 
 #message-box {
-    width: 100%;
-    margin: 0 auto;
+    width: 80%;
     display: block;
 }
 
@@ -386,8 +395,8 @@ form-backing {
 
 .about-us-card {
     background-color: #dde392;
-    width: 33.3%;
-    height: 700px;
+    width: 100%;
+    min-height: 100vh;
     margin: 5px;
 }
 
@@ -417,7 +426,7 @@ form-backing {
 }
 
 .about-us-card a {
-    color: #db5b16;
+    color: black;
     padding: 15px 20px;
     display: block;
     text-align: center;
