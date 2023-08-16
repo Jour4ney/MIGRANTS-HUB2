@@ -412,17 +412,23 @@ form-backing {
 
 .about-us-card h2 {
     padding: 10px;
-    font-size: 20px;
+    font-size: 35px;
     font-family: 'Oswald', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     text-align: center;
-    color: white;
+    color: black;
 
+}
+.Values {
+    font-size: 30px;
+    font-weight: 400;
+    color: black;
+    text-shadow: 1px 1px 1px black;
 }
 
 .about-us-card p {
     padding: 10px;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 200;
 }
 
@@ -436,7 +442,7 @@ form-backing {
 }
 
 .about-us-card:hover {
-    background-color: #136f63;
+    background-color: #92374d;
     color: white;
     cursor: pointer;
     transform: scale(1.03);
@@ -490,8 +496,11 @@ form-backing {
         max-width: 75%;
     }
     .footer-col {
-        width:25%;
+        width:23%;
     }
-    
+    .about-us-card p {
+        font-size: 30px;
+        font-weight: 400;
+    }
 }    
     

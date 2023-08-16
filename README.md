@@ -201,7 +201,41 @@ The colour scheme was chosen starting with a shade of brown and then using [cool
 [Back to top](#contents)
 ## Testing
 
-Please click [here]() for more information on testing Migrants Hub.
+* Testing was carried out on all three pages of the website. The testing was carried out on the following devices:
+	* Desktop
+	* Mobile
+
+* The testing was carried out on the following browsers:
+	* Chrome
+	* Firefox
+	* Safari
+
+* Navigation bar testing was done across all screen sizes using the option to resize the browse window within chrome dev tools. The navigation bar was tested to ensure that it was responsive and that the links worked as expected.
+* The landing page image was tested to ensure that it was responsive and that the text was readable across all screen sizes.
+* The about us section was tested to ensure that each card stacked accordingly to the differnt screen sizes.
+* The services page was tested just like the about us page. Text was tested to ensure that it was readable and that the images were not distorting.
+* The footer was tested to ensure that the social media icon links opened in a new tab and linking to the correct website. The footer was also tested to ensure that it was responsive across all screen sizes.
+* The contact page was tested to ensure that the form was responsive and that the validation was working correctly. The form was tested to ensure that the submit button was working correctly and it was correctly linked to the form-sent.html page.
+* The form-sent page was tested to ensure that the text was readable across all device screen sizes. 
+
+* Lighthouse testing was carried out on all three pages of the website. The testing was carried out on the following devices:
+	- Desktop
+	- Mobile
+
+![Desktop Home]()
+
+![Mobile Home]()
+
+### Validator Testing 
+
+* HTML
+  * No errors were returned when passing through the official ![W3C validator]()
+* CSS
+   *No errors were found when passing through the official ![(Jigsaw) validator]()
+
+  ### Unfixed Bugs
+
+*
 
 ## Deployment and Development
 
