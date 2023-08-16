@@ -274,7 +274,7 @@ form-backing {
 
 /* form-sent page styling */
 
-.form-sent-message {
+#form-sent-message {
     background: url("../images/inclusion.webp") no-repeat center center;
     background-size: cover;
     height: calc(100vh - 160px);
