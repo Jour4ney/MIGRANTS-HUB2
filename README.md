@@ -1,6 +1,6 @@
 # Donegal migrants hub
 
-Donegal migrants hub is a site that seeks to ensure newly arrived migrants in the Donegal area have access to the necessary services that will help them easily integrate to the community.
+Donegal migrants hub is a site that seeks to ensure newly arrived migrants in the Donegal area have access to the necessary services that will help them easily integrate to the community. migrants Hub targets refugees specifically however, does welcome other migrants too.The users come to the site to seek a service that can help them access essential services that are mainly for migrants.users will keep coming back because the site provides information and links that they can use to access further services as well as communication with our volunteers who can easily reach out to answer any questions.
 
 Visit the live site at [DNG MIGRANTS HUB](https://jour4ney.github.io/MIGRANTS-HUB2/)
 
@@ -73,16 +73,16 @@ I created basic wireframes of how I wanted the layout of the site to look on dif
 
 #### About Us Page Wireframes
 
-![wireframes for the home page  ]()
+![wireframes for the home page  ](assets/readme-images/about-us-wireframe.png)
 
 #### Services Page Wireframes
 inks Page Wireframes
 
-![wireframes for the useful links page  ]()
+![wireframes for the useful links page  ](assets/readme-images/services-page-wireframe.png)
 
 #### Contact Page Wireframes
 
-![wireframes for the contact page  ]()
+![wireframes for the contact page  ](assets/readme-images/about-us-screenshot.png)
 
 [Back to top](#contents)
 
@@ -201,7 +201,7 @@ The colour scheme was chosen starting with a shade of brown and then using [cool
 [Back to top](#contents)
 ## Testing
 
-* Testing was carried out on all three pages of the website. The testing was carried out on the following devices:
+* Testing was carried out on all four pages of the website.All htmlpages passed through the validatorand lighthouse. The testing was carried out on the following devices:
 	* Desktop
 	* Mobile
 
