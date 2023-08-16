@@ -283,7 +283,7 @@ form-backing {
     justify-content: center;
 }
 
-.message-container {
+#message-container {
     text-align: center;
     position: absolute;
     top: 20%;
