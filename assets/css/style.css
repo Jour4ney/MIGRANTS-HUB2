@@ -419,7 +419,7 @@ form-backing {
 
     }
     .serv-container {
-        max-width: 75%;
+        min-width: 75%;
     }
 
     .footer-col {
