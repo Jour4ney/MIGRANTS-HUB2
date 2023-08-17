@@ -78,7 +78,8 @@ html {
     max-width: 100%;
     background-color: #136f63;
     margin-top: auto;
-}
+    display: flex;
+    clear: both;
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -293,15 +294,15 @@ form-backing {
     background-image: url('../images/inclusion.webp');
 }
 .card-2 {
-    background-image: url(../images/education-training.webp);
+    background-image: url('../images/education-training.webp');
 }
 
 .card-3 {
-    background-image: url(../images/empowerment.webp);
+    background-image: url('../images/networking.webp');
 }
 
 .card-4 {
-    background-image: url(../images/networking.webp);
+    background-image: url('../images/empowerment.webp');
 }
 
 .card h2 {
@@ -418,14 +419,10 @@ form-backing {
         padding: 0.5rem;
 
     }
+}
     .serv-container {
-        max-width: 75%;
+        max-width: 100%;
     }
-
-    .footer-col {
-        width: 23%;
-    }
-
     .about-us-card p {
         font-size: 30px;
         font-weight: 400;
